@@ -1,0 +1,619 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<link rel="shortcut icon" href="assets/images/favicon.png">
+
+	<title>Meraki -Job Board WordPress Theme</title>
+
+	<meta name="description" content="We hope that you find all your questions regarding this theme answered in this Documentation as much in details as possible. However, if you still need support, do not hesitate to contact us at our support forum for this theme. ">
+	<meta name="author" content="Meraki">
+	<meta name="copyright" content="Meraki">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-04-15T00:00:00+02:00">
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="assets/css/monokai_sublime.css" media="all">
+	<link rel='stylesheet'  href='http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic,vietnamese,greek,latin-ext,greek-ext,cyrillic-ext,latin,cyrillic' type='text/css' media='all' />
+
+	
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script src="assets/js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+</head>
+<body class="documenter-project-journey-">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo">
+			<img src="assets/images/logo.png" alt="">
+		</a>
+		<div id="documenter_sidebar_link">
+				<p> BY <a id="active" href="https://modeltheme.com/">MODELTHEME.COM </a></p>
+		</div>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#installation" title="Installation of WordPress">Installation of WordPress</a></li>
+			<li><a href="#installation2" title="Theme Installation WordPress">Theme Installation WordPress</a></li>
+			<li><a href="#installation3" title="Theme Installation FTP">Theme Installation FTP</a></li>
+			<li><a href="#installation4" title="Install &amp; Setup Plugins">Install &amp; Setup Plugins</a></li>
+			<li class="has-children">
+			<a href="#installation5-title" title="Importing Demo Data">+ Import Demo Data</a>
+			<ul>
+				<li><a href="#theme-activation"><span>→</span> Activating the theme</a></li>
+				<li><a href="#installation5"><span>→</span> Import Demo Data - One-Click-Install</a></li>
+			</ul>
+			</li>
+			<li><a href="#installation6" title="Theme Panel">Theme Panel</a></li>
+			<li><a href="#my_account" title="">My Account</a></li>
+			<li><a href="#feature_preloader" title="">Feature: Page Preloader</a></li>
+			<li><a href="#feature_gfonts" title="">Feature: Google Fonts</a></li>
+			<li><a href="#feature_custom_typo" title="">Feature: Custom Typography</a></li>
+			<li><a href="#feature_page_post_metaboxes" title="">Feature: Page/Post Metaboxes</a></li>
+
+
+			<li><a href="#installation11" title="MT Widgets">MT Widgets</a></li>
+			<li><a href="#installation12" title="MT Shortcodes">MT Shortcodes</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+			<li><a href="#changelog" title="Changelog">Changelog</a></li>
+		</ul>
+	</div>
+
+
+
+
+	<div id="documenter_content">
+		<section id="documenter_cover">
+			<p>Theme Documentation</p>
+			<h1>Meraki - Job Board WordPress Theme</h1>
+			<hr>
+			<p><strong>Meraki</strong> is the perfect solution for Job Board businesses & Listings. It comes with our in-house made Job Listings plugin: ModelTheme Listings Manager.</p>
+		
+			<div class="spacer_80"></div>
+			<div class="row">
+				<div class="col-md-4 documenter_support clickable_intro_box_main text-center">
+					<div class="clickable_intro_box">
+						<a href="https://modeltheme.com/support/" style="text-decoration:none">
+							<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M57.9751 19.1821C59.2866 17.1762 60 14.7721 60 12.3047C60 5.51988 54.4275 0 47.5781 0C45.1382 0 42.8204 0.696563 40.8143 2.02348C37.4052 0.694922 33.7525 0 30 0C26.2477 0 22.5948 0.694922 19.1857 2.02348C17.1796 0.696563 14.8618 0 12.4219 0C5.57238 0 0 5.51988 0 12.3047C0 14.7721 0.713437 17.1763 2.02488 19.1821C0.695391 22.5922 0 26.2463 0 30C0 33.7523 0.694922 37.4052 2.02348 40.8143C0.696563 42.8204 0 45.1382 0 47.5781C0 54.3714 5.6093 60 12.4219 60C14.8618 60 17.1796 59.3034 19.1857 57.9765C22.5948 59.3051 26.2477 60 30 60C33.7525 60 37.4052 59.3051 40.8143 57.9765C42.8204 59.3034 45.1382 60 47.5781 60C54.3671 60 60 54.3932 60 47.5781C60 45.1383 59.3034 42.8204 57.9765 40.8143C59.3051 37.4052 60 33.7523 60 30C60 26.2463 59.3046 22.5922 57.9751 19.1821ZM38.7891 5.01668C46.3337 7.67871 52.3213 13.6663 54.9833 21.2109H43.1477C41.9933 19.4897 40.5103 18.0067 38.7891 16.8523V5.01668ZM24.7266 4.04367C26.4313 3.69785 28.1947 3.51562 30 3.51562C31.8053 3.51562 33.5687 3.69785 35.2734 4.04367V15.0846C33.6232 14.4994 31.8483 14.1797 30 14.1797C28.1517 14.1797 26.3768 14.4994 24.7266 15.0846V4.04367ZM21.2109 5.01668V16.8523C19.4897 18.0067 18.0067 19.4897 16.8523 21.2109H5.01668C7.67871 13.6663 13.6663 7.67871 21.2109 5.01668ZM12.4219 3.51562C13.3699 3.51562 14.2914 3.66445 15.1658 3.95098C10.5452 6.60879 6.63539 10.5111 3.96738 15.1378C3.67371 14.2281 3.51562 13.2654 3.51562 12.3047C3.51562 7.4584 7.5109 3.51562 12.4219 3.51562ZM4.04367 24.7266H15.0846C14.4994 26.3768 14.1797 28.1517 14.1797 30C14.1797 31.8483 14.4994 33.6232 15.0846 35.2734H4.04367C3.69785 33.5687 3.51562 31.8053 3.51562 30C3.51562 28.1947 3.69785 26.4313 4.04367 24.7266ZM12.4219 56.4844C7.59422 56.4844 3.51562 52.4058 3.51562 47.5781C3.51562 46.6301 3.66445 45.7085 3.95098 44.8342C6.61359 49.4632 10.5267 53.3804 15.1658 56.049C14.2914 56.3355 13.3699 56.4844 12.4219 56.4844ZM21.2109 54.9833C13.6663 52.3213 7.67871 46.3337 5.01668 38.7891H16.8523C18.0067 40.5103 19.4897 41.9933 21.2109 43.1477V54.9833ZM35.2734 55.9563C33.5687 56.3021 31.8053 56.4844 30 56.4844C28.1947 56.4844 26.4313 56.3021 24.7266 55.9563V44.9154C26.3768 45.5006 28.1517 45.8203 30 45.8203C31.8483 45.8203 33.6232 45.5006 35.2734 44.9154V55.9563ZM30 42.3047C23.2152 42.3047 17.6953 36.7848 17.6953 30C17.6953 23.2152 23.2152 17.6953 30 17.6953C36.7848 17.6953 42.3047 23.2152 42.3047 30C42.3047 36.7848 36.7848 42.3047 30 42.3047ZM38.7891 54.9833V43.1477C40.5103 41.9933 41.9933 40.4986 43.1477 38.7773H54.9833C52.3213 46.322 46.3337 52.3213 38.7891 54.9833ZM47.5781 56.4844C46.6301 56.4844 45.7086 56.3355 44.8342 56.049C49.463 53.3864 53.3804 49.4733 56.049 44.8342C56.3355 45.7086 56.4844 46.6301 56.4844 47.5781C56.4844 52.4058 52.4058 56.4844 47.5781 56.4844ZM55.9563 35.2734H44.9154C45.5006 33.6232 45.8203 31.8483 45.8203 30C45.8203 28.1517 45.5006 26.3768 44.9154 24.7266H55.9563C56.3021 26.4313 56.4844 28.1947 56.4844 30C56.4844 31.8053 56.3021 33.5687 55.9563 35.2734ZM56.0326 15.1378C53.37 10.5205 49.4638 6.61406 44.8342 3.95098C45.7086 3.66445 46.6301 3.51562 47.5781 3.51562C52.489 3.51562 56.4844 7.4584 56.4844 12.3047C56.4844 13.2654 56.3263 14.2281 56.0326 15.1378Z" fill="#52C27D"/> 
+							</svg>
+							<h3>Support via Help Desk</h3>
+							<p>Mon-Fri -> 8:00 - 20:00 EET</p>
+						</a>
+					</div>
+				</div>
+		
+				<div class="col-md-4 documenter_support clickable_intro_box_main text-center">
+					<div class="clickable_intro_box">
+						<a href="https://meraki.modeltheme.com/" style="text-decoration:none">
+							<svg width="52" height="60" viewBox="0 0 52 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.00003 36.0002H19.5569L17.3071 42.0001H15V43.9999H37V42.0001H34.6929L32.4431 35.9998H48C50.209 35.9998 52 34.2089 52 31.9998V4.00003C52 1.79097 50.209 0 48 0H4.00003C1.79056 0 0 1.79097 0 4.00003V31.9998C0 34.2093 1.79056 36.0002 4.00003 36.0002ZM32.5567 42.0001H19.4428L21.6931 35.9998H30.3069L32.5567 42.0001ZM49.9998 31.9998C49.9998 33.1045 49.1047 34 48 34H4.00003C2.8953 34 1.99981 33.1045 1.99981 31.9998V30H50.0002V31.9998H49.9998ZM1.99981 4.00003C1.99981 2.89529 2.8953 1.99981 4.00003 1.99981H48C49.1047 1.99981 49.9998 2.89529 49.9998 4.00003V27.9998H1.99981V4.00003Z" fill="#2695FF"/>
+								<path d="M5.00014 46.0001C4.44777 46.0001 4.00003 46.4479 4.00003 47.0002V58.9999C4.00003 59.5523 4.44777 60 5.00014 60H33C33.5523 60 34.0001 59.5523 34.0001 58.9999V47.0002C34.0001 46.4479 33.5523 46.0001 33 46.0001H5.00014ZM31.9998 58.0002H5.99984V47.9999H31.9998V58.0002Z" fill="#2695FF"/>
+								<path d="M8.00006 53.9998H9.99987V56H8.00006V53.9998Z" fill="#2695FF"/>
+								<path d="M27.9998 53.9998H30V56H27.9998V53.9998Z" fill="#2695FF"/>
+								<path d="M8.00006 50.0001H9.99987V51.9999H8.00006V50.0001Z" fill="#2695FF"/>
+								<path d="M12.0001 50.0001H13.9999V51.9999H12.0001V50.0001Z" fill="#2695FF"/>
+								<path d="M16.0001 50.0001H17.9999V51.9999H16.0001V50.0001Z" fill="#2695FF"/>
+								<path d="M19.9997 50.0001H22V51.9999H19.9997V50.0001Z" fill="#2695FF"/>
+								<path d="M23.9998 50.0001H26V51.9999H23.9998V50.0001Z" fill="#2695FF"/>
+								<path d="M27.9998 50.0001H30V51.9999H27.9998V50.0001Z" fill="#2695FF"/>
+								<path d="M12.0001 53.9998H26V56H12.0001V53.9998Z" fill="#2695FF"/>
+								<path d="M38.0001 50.9998V54.9999C38.0001 57.7613 40.2384 60 42.9998 60C45.7612 60 48 57.7613 48 54.9999V50.9998C48 48.2384 45.7612 46.0001 42.9998 46.0001C40.2384 46.0001 38.0001 48.2384 38.0001 50.9998ZM46.0002 50.9998V54.9999C46.0002 56.657 44.6569 57.9998 42.9998 57.9998C41.3431 57.9998 39.9999 56.657 39.9999 54.9999V50.9998C40.0053 49.7332 40.8056 48.6062 42.0001 48.184V50.9998H43.9999V48.184C45.1945 48.6062 45.9948 49.7332 46.0002 50.9998Z" fill="#2695FF"/>
+								<path d="M31.7074 11.7068L21.7079 21.7063L20.2934 20.2922L30.2933 10.2923L31.7074 11.7068Z" fill="#2695FF"/>
+								<path d="M26.7064 10.7071L20.7066 16.7069L19.2925 15.2925L25.2923 9.29262L26.7064 10.7071Z" fill="#2695FF"/>
+								<path d="M32.7071 16.7069L26.7072 22.7068L25.2932 21.2927L31.2926 15.2929L32.7071 16.7069Z" fill="#2695FF"/> 
+							</svg>
+							<h3>Theme Live Demo</h3>
+							<p>Have a look before purchasing</p>
+						</a>
+					</div>
+				</div>
+		
+				<div class="col-md-4 documenter_support clickable_intro_box_main text-center">
+					<div class="clickable_intro_box">
+						<a href="https://modeltheme.com/go/purchase-meraki-theme/" style="text-decoration:none">
+							<svg width="59" height="60" viewBox="0 0 59 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M57.5899 11.3846C56.4854 10.1138 54.9109 9.41391 53.1569 9.41391H10.7519L10.3251 6.19125C9.86512 2.71957 7.46521 0 4.8612 0H1.7454C0.781338 0 0 0.786896 0 1.75781C0 2.72873 0.781338 3.51562 1.7454 3.51562H4.8612C5.42118 3.51562 6.60705 4.7081 6.86477 6.65588L11.861 44.3948C12.081 46.0583 12.9296 47.6157 14.2504 48.7802C15.2299 49.644 16.3876 50.2185 17.6003 50.4588C17.1062 51.3739 16.8253 52.4222 16.8253 53.535C16.8253 57.1001 19.7053 60 23.2447 60C26.7841 60 29.664 57.1001 29.664 53.535C29.664 52.473 29.4067 51.4709 28.954 50.5861H38.1001C37.6474 51.4709 37.3901 52.473 37.3901 53.535C37.3901 57.1001 40.27 60 43.8094 60C47.3489 60 50.2288 57.1001 50.2288 53.535C50.2288 52.473 49.9715 51.4709 49.5188 50.5861H54.0918C55.0554 50.5861 55.8372 49.7987 55.8372 48.8283C55.8372 47.8574 55.0554 47.0705 54.0918 47.0705H18.8826C17.1772 47.0705 15.5463 45.6322 15.3209 43.9297L14.9559 41.1717H28.5404L28.5418 41.1722L28.5436 41.1717H39.7569L39.7587 41.1722L39.7596 41.1717H49.4179C51.0842 41.1717 52.7291 40.5304 54.05 39.3663C55.3709 38.2018 56.2195 36.644 56.4395 34.9805L58.943 16.0703C59.1748 14.3193 58.6944 12.6553 57.5899 11.3846ZM26.1732 53.535C26.1732 55.1614 24.8596 56.4844 23.2447 56.4844C21.6302 56.4844 20.3161 55.1614 20.3161 53.535C20.3161 51.909 21.6302 50.5861 23.2447 50.5861C24.8596 50.5861 26.1732 51.909 26.1732 53.535ZM46.738 53.535C46.738 55.1614 45.4244 56.4844 43.8094 56.4844C42.1945 56.4844 40.8809 55.1614 40.8809 53.535C40.8809 51.909 42.1945 50.5861 43.8094 50.5861C45.4244 50.5861 46.738 51.909 46.738 53.535ZM54.9632 13.7004C55.3954 14.1975 55.58 14.8737 55.4827 15.6052L54.4332 23.535H42.5572L43.259 12.9295H53.1569C53.89 12.9295 54.5314 13.2033 54.9632 13.7004ZM30.1763 37.6561L29.474 27.0506H38.826L38.1237 37.6561H30.1763ZM29.2413 23.535L28.5395 12.9295H39.7605L39.0587 23.535H29.2413ZM25.041 12.9295L25.7428 23.535H12.6209L11.2169 12.9295H25.041ZM13.0864 27.0506H25.9755L26.6777 37.6561H14.4904L13.0864 27.0506ZM49.4179 37.6561H41.6222L42.3245 27.0506H53.9677L52.9796 34.5158C52.7541 36.2183 51.1228 37.6561 49.4179 37.6561Z" fill="#ED6666"/> 
+							</svg>
+							<h3>Purchase Theme</h3>
+							<p>Buy the product via ThemeForest</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+
+
+		<section id="features">
+			<div class="page-header2">
+				<h3>Some features of the Theme</h3>
+				
+			</div>
+			<ul class="col-md-6">
+				<li>One Click Demo Install</li>
+				<li>Easy Installation &amp; Setup</li>
+				<li>Fully Customizable Options</li>
+				<li>Retina Ready For Enabled Devices</li>
+				<li>Custom Backgrounds Per Page/Post</li>
+				<li>Multiple Colors &amp; Skins Throughout</li>
+				<li>Powerful Customization Options</li>
+				<li>Font, Icons Instead of Images</li>
+				<li>Eye-catching CSS3 Animations</li>
+				<li>Well documented</li>
+				<li>Constant Updates &amp; New Features</li>
+				<li>Incredible Shortcode Options</li>
+				<li>MT Testimonials</li>
+				<li>MT Clients</li>
+				<li>MT Members</li>
+				<li>MT Mega Menu</li>
+				<li>MT Jobs</li>
+				<li>MT Job Applications</li>
+				<li>Multiple Headers</li>
+				
+			</ul>
+			<ul class="col-md-6">
+				<li>Multiple Footers Variants</li>
+				<li>Footers on multiple ROWS (NEW)</li>
+				<li>Page Preloader with multiple animations</li>
+				<li>Advanced Typography Options</li>
+				<li>Unlimited Sidebar Creation</li>
+				<li>Multiple Custom Widgets</li>
+				<li>Fully Optimized For Speed</li>
+				<li>WPBakery Page Builder Included</li>
+				<li>Revolution Slider Included</li>
+				<li>Compatible with Contact Form 7</li>
+				<li>Compatible with Disquis Comment system</li>
+				<li>Powerful Theme Panel</li>
+				<li>30+ custom shortcodes</li>
+				<li>10+ custom widgets</li>
+				<li>Custom Menu Per Page/Post</li>
+				<li>Back to Top button</li>
+				<li>Unlimited Sidebars</li>
+				<li>Premium dedicated support included;</li>
+			</ul>
+		</section>
+
+
+
+		<section id="installation">
+			<div class="page-header2">
+				<h3>Install WordPress</h3>
+			</div>
+			<p>
+				<ul>1. Download and unzip the WordPress package if you haven't already.</ul>
+				<ul>2. Create a database for WordPress on your web server, as well as a MySQL (or MariaDB) user who has all privileges for accessing and modifying it.</ul>
+				<ul>3. (Optional) Find and rename wp-config-sample.php to wp-config.php, then edit the file (see Editing wp-config.php) and add your database information.</ul>
+				<ul>4. Upload the WordPress files to the desired location on your web server:
+							<li>If you want to integrate WordPress into the root of your domain (e.g. http://example.com/), move or upload all contents of the unzipped WordPress directory (excluding the WordPress directory itself) into the root directory of your web server.</li>
+							<li>If you want to have your WordPress installation in its own subdirectory on your website (e.g. http://example.com/blog/), create the blog directory on your server and upload the contents of the unzipped WordPress package to the directory via FTP.
+					Note: If your FTP client has an option to convert file names to lower case, make sure it's disabled.</li></ul>
+				<ul>5. Run the WordPress installation script by accessing the URL in a web browser. This should be the URL where you uploaded the WordPress files.
+						<li>If you installed WordPress in the root directory, you should visit: http://example.com/</li>
+						   <li>If you installed WordPress in its own subdirectory called blog, for example, you should visit: http://example.com/blog/</li></ul>
+		
+					That's it! WordPress should now be installed. </p>
+			<h3>Check the Famous 5-Minutes Install here :</h3>
+			<p><a href="https://wordpress.org/support/article/how-to-install-wordpress/" target="_blank" rel="nofollow noopener">https://wordpress.org/support/article/how-to-install-wordpress/</a></p>
+			<p>or you can watch the following video.</p>
+			<p><iframe width="700" height="425" src="https://www.youtube.com/embed/ell0SiTZyX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></object></p>
+		</section>
+
+
+
+		<section id="installation2">
+			<div class="page-header2"><h3>Theme Installation WordPress</h3></div>
+			<p>The first option on how to install this Theme would be to directly upload the <strong>meraki.zip</strong> file via WordPress Theme Uploader.</p>
+			<ul>
+				<li>Log into your WordPress dashboard</li>
+				<li>Navigate to <strong>Appearance &gt; Themes</strong></li>
+				<li>Click <strong>Install Themes</strong></li>
+				<li>Click <strong>Upload</strong></li>
+				<li>Now you just need to find the "meraki.zip" file in the meraki_package/theme folder and hit <strong>Install now</strong>.</li>
+			</ul>
+			<p>If you are experiencing any issues during the installation I would recommend to check out this <a target="_blank" href="https://envato.com/blog/install-themeforest-wordpress-theme/" rel="nofollow noopener">Tutorial by Envato</a></p>
+		</section>
+
+
+
+		<section id="installation3">
+			<div class="page-header2"><h3>Theme Installation via FTP</h3></div>
+			<p>The second option on how to install our Theme would be the upload via <strong>FTP manager</strong>. It really doesn't matter which of the two ways you choose, just choose the one you feel more comfortable with.</p>
+			<ul>
+				<li>1. Login to your FTP account and navigate to your WordPress Installation directory</li>
+				<li>2. Navigate to the folder <code>/wp-content/themes/</code></li>
+				<li>3. Upload the "meraki" folder (not the .zip-file). This is the folder located inside the meraki_package/theme/meraki.zip folder in the zip-file you've downloaded from Themeforest.</li>
+				<li>4. Now log into your WordPress backend</li>
+				<li>5. Navigate to <strong>Appearance &gt; Themes</strong></li>
+				<li>6. Find the Theme and click <strong>Activate</strong></li>
+			</ul>
+			<p>If you are experiencing any issues during the installation I would recommend to check out this <a target="_blank" href="https://envato.com/blog/install-themeforest-wordpress-theme/" rel="nofollow noopener">Tutorial by Envato</a></p>
+		</section>
+
+
+
+		<section id="installation4">
+			<div class="page-header2"><h3>Install &amp; Setup Plugins</h3></div>
+			<p>So at this stage you have probably noticed a warning, asking you to install recommended plugins. This is needed to get the Theme Panel plugin and a few other plugins for the theme to work perfectly. Installing that is very simple, you just need to click <code>Begin installing plugins</code> and you will be redirected to the plugin installation page where you can install any Plugin you want or you need.</p>
+		</section>
+
+
+
+		<section id="installation5-title">
+			<div class="page-header2"><h3>Import Demo Data</h3></div>
+			<p>Theme  Activator added in order to import demo data (theme panel tab).</p>
+		</section>
+ 		<section id="theme-activation">
+			<div class="page-header2"><h3>Activating the theme</h3></div>
+			<p>Important: New Theme Activator added in order to import demo data (theme panel tab). New "Demo_Data" folder from the package has been removed. Only automatic demo import will be used starting with this update. In case the automatic demo importer has issues on your installation, please contact our help team to provide the offline files for demo import. <A href="https://modeltheme.com/knowledgebase/license-manager-introduced-in-our-themes/">How to activate?</A></p>
+			<p><img src="https://docs.modeltheme.com/ibid/assets/images/ibid-activator1.jpg" alt="demo"></p>
+
+			<p>An activated license will look like this, and will list the demo data for import:
+				<img src="https://docs.modeltheme.com/ibid/assets/images/ibid-activator2.jpg" alt="demo"></p>
+
+
+			<p>Read the following tutorial to learn all the things about the new activator/license manager: <A href="https://modeltheme.com/knowledgebase/license-manager-introduced-in-our-themes/">License Manager introduced in our themes</A></p>
+		</section>
+
+		<section id="installation5">
+			<div class="page-header2"><h3>Import Demo Data</h3></div>
+			<p>This theme comes with an amazing built-in feature: <code>One-Click-Install</code> -> Possibility to import demo data of the theme with one click only, and make your site look 1:1 with our demo.</p>
+			<p>Sounds cool? How can I install the demo?</p>
+			<p>Go to your <code>WordPress Admin Panel -> Vatican Theme Panel -> Demo Importer</code></p>
+			<p><img src="assets/images/demo-1.png" alt=""></p>
+		</section>
+
+
+		<section id="installation6">
+			<div class="page-header2"><h3>Theme Panel</h3></div>
+			<p>If you want to change the general Options of the Theme, go to your WordPress Admin Dashboard Area to <strong> Meraki Theme Panel</strong>. Here you have a tabbed Navigation where you can change a lot of Options of your new Theme:</p> 
+			<ul>
+			    <li>General Settings
+			    	<ul>
+						<li>Back to Top Button</li>
+			    		<li>Page Preloader</li>
+			    		<li>Sidebars</li>
+			    	</ul>
+			    </li>
+			    <li>Styling Settings
+			    	<ul>
+			    		<li>Global Fonts</li>
+						<li>Skin colors</li>
+						<li>Nav Menu</li>
+						<li>Typography</li>
+						<li>Responsive Typography</li>
+			    	</ul>
+			    </li>
+			    <li>Header Settings
+			    	<ul>
+			    		<li>Header - General</li>
+			    		<li>Logo &amp; Favicon</li>
+			    		<li>Header - Top Bar</li>
+			    		<li>Fixed Sidebar Menu</li>
+			    	</ul>
+			    </li>
+			    <li>Footer Settings
+			    	<ul>
+			    		<li>Footer Top Rows</li>
+			    		<li>Footer Bottom Bar</li>
+			    	</ul>
+			    </li>
+			    <li>Contact Settings
+			    	<ul>
+			    		<li>Contact</li>
+			    		<li>Mailchimp</li>
+			    	</ul>	
+			    </li>
+			    <li>Blog Settings
+			    	<ul>
+			    		<li>Blog Archive</li>
+			    		<li>Single Post</li>
+			    	</ul>	
+			    </li>
+			    <li>Social Media Settings
+					<ul>
+						<li>Social Media</li>
+						<li>Floating Social Button</li>
+					</ul>
+				</li>
+				<li>MT Jobs Settings
+					<ul>
+						<li>General</li>
+						<li>Archive Jobs Pages</li>
+						<li>Sponsored Job Package</li>
+						<li>Single Job Page</li>
+						<li>API KEY Maps</li>
+					</ul>
+				</li>
+				<li>MT AdPlaces
+					<ul>
+						<li>AdPlace Single Jobs Listing</li>
+						<li>AdPlace Blog Post</li>
+						<li>AdPlace Search</li>
+						<li>AdPlace Category</li>
+						<li>AdPlace Jobs List</li>
+					</ul>
+				</li>
+			    <li>Demo Importer</li>
+			    <li>Import / Export</li>
+			</ul>
+			<img src="assets/images/admin-panel2.png" alt="">
+			<p></p>
+			<img src="assets/images/admin-panel1.png" alt="">
+		</section>
+
+
+
+
+
+
+		<!-- Feature: Page Preloader -->
+		<section id="my_account">
+			<div class="page-header2"><h3>My Account</h3></div>
+			<p><strong>How to set up the My Account manually:</strong></p>
+			<p>Step 1: Make sure to install the WooCommerce Plugin.</p>
+			<p>Step 2: Set up a page to the My Account dropdown.<br><br>
+				<img src="assets/images/my-account1.jpg">
+			</p>
+			<p>Step 3: Now go on Pages -> My Account -> and open the page for edit. You should see this shortcode (Added by the WooCommerce plugin) on the editor.<br><br>
+				<img src="assets/images/my-account2.jpg">
+			</p>
+			<p>Step 3: Replace the shortcode with this content:.<br><br>
+
+				<code>[vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1550569654057{margin-bottom: 0px !important;}"][vc_column][woocommerce_my_account order_count="15"][/vc_column][/vc_row]</code><br><br>
+
+				Then you should have this on your editor box:<br><br>
+
+				<img src="assets/images/my-account3.jpg">
+			</p>
+			<p>Final Step: Now you should see the My Account page fullwidth (as on our demo).</p>
+
+
+			<p><strong>How to allow registration on your website:</strong></p>
+			<p>Step 1: Make sure you have the WooCommerce Plugin activated.</p>
+			<p>Step 2: Go to your admin dashboard > Settings tab > General and enable the option that anyone can register .</p>
+				<img src="assets/images/account-pic1.png">
+			<p>Step 3: Check the WooCommerce tab from the dashboard > Settings > Accounts & Privacy and disable or enable the options only to be exactly like the ones bellow. .</p>
+				<img src="assets/images/account-pic2.png">
+		</section>
+
+
+
+
+		<!-- Feature: Page Preloader -->
+		<section id="feature_preloader">
+			<div class="page-header2"><h3>Feature: Page Preloader</h3></div>
+			<p><strong>Option Type:</strong> Theme Panel Option - To access this option and add new custom css to your website go to Theme Panel(General Settings Tab) <img src="assets/images/feature_preloader.png"></p>
+			<ul>
+				<li><strong>1. Enable Page Preloader</strong> - Disable or Enable the preloader on all over the site;</li>
+				<li><strong>2. Page Preloader Background</strong> - Background color of the preloader(not the animation);</li>
+				<li><strong>3. Preloader color</strong> - Animation color of the preloader;</li>
+			</ul>
+		</section>
+
+
+
+
+
+
+		<!-- Feature: Google Fonts -->
+		<section id="feature_gfonts">
+			<div class="page-header2"><h3>Feature: Google Fonts</h3></div>
+			<p><strong>Option Type:</strong> Theme Panel Option - To access this option and add new custom css to your website go to Theme Panel(Styling Settings Tab) <img src="assets/images/feature_gfonts.png"></p>
+
+			<strong>1. Why use this tool?</strong>
+			<ul>
+				<li>Possibility to add unlimited Fonts to your website;</li>
+				<li>Choose from +600 Trending Google Fonts;</li>
+			</ul>
+			<p>Entire list of fonts can be checked here: <a href="https://fonts.google.com" target="_blank" rel="nofollow noopener">https://fonts.google.com</a>;</p>
+		</section>
+
+
+
+
+
+
+
+		<!-- Feature: Custom Typography -->
+		<section id="feature_custom_typo">
+			<div class="page-header2"><h3>Feature: Custom Typography</h3></div>
+			<p><strong>Option Type:</strong> Theme Panel Option - To access this option and add new custom css to your website go to Theme Panel(Styling Settings Tab) <img src="assets/images/feature_custom_typo.png"></p>
+
+			
+			<ul>
+				<li><strong>1. Body Font family</strong> - Change the main font family from the site(Will be applied to all elements from the site which don't have a font-family css rule applied);</li>
+				<li><strong>2. Heading H1 Font family</strong> - Change the font family, font-size, line-height and letter spacing of Heading H1;</li>
+				<li><strong>3. Heading H2 Font family</strong> - Change the font family, font-size, line-height and letter spacing of Heading H2;</li>
+				<li><strong>4. Heading H3 Font family</strong> - Change the font family, font-size, line-height and letter spacing of Heading H3;</li>
+				<li><strong>5. Heading H4 Font family</strong> - Change the font family, font-size, line-height and letter spacing of Heading H4;</li>
+				<li><strong>6. Heading H5 Font family</strong> - Change the font family, font-size, line-height and letter spacing of Heading H5;</li>
+				<li><strong>7. Heading H6 Font family</strong> - Change the font family, font-size, line-height and letter spacing of Heading H6;</li>
+				<li><strong>8. Inputs Font family</strong> - Set the font family for inputs and textareas;</li>
+				<li><strong>9. Buttons Font family</strong> - Set the font family for buttons;</li>
+			</ul>
+			<p>Entire list of fonts can be checked here: <a href="https://fonts.google.com" target="_blank" rel="nofollow noopener">https://fonts.google.com</a>;</p>
+		</section>
+
+
+
+
+		<!-- Feature: Page/Post Metaboxes -->
+		<section id="feature_page_post_metaboxes">
+			<div class="page-header2"><h3>Feature: Page/Post Metaboxes</h3></div>
+			<p><strong>Option Type:</strong> Page/Post Metaboxes(not theme panel options) - To deal with these options, when editing a post/page you will get a set of options as follows: <img src="assets/images/feature_page_post_metaboxes.png"></p>
+
+			<h4>Custom Header Options</h4>
+			<ul>
+				<li><strong>1. Main Navigation Menu</strong> - Replaces the default Nav Menu from current the page/post;</li>
+				<li><strong>2. Rewrite Theme Options?</strong> - Rewrite the options from the Theme Panel (Default OFF - get theme options);</li>
+				<li><strong>3. Header Custom background color?</strong> - Set a custom background color for Header on the current post/page;</li>
+				<li><strong>4. Semi Transparent Header?</strong> - Activate the background of the header to semi transparent (The next 2 options can be used only with this option Enabled);</li>
+				<li><strong>5. Semi Transparent Header Opacity</strong> - Set the background opacity of the header;</li>
+				<li><strong>6. Semi Transparent Header Opacity (After Scroll)</strong> - Set the background opacity of the header after scroll (works when fixed header is active);</li>
+				<li><strong>7. Select Revolution Slider</strong> - Adds a desired revolution slider on the top of the page;</li>
+				<li><strong>8. Page title-breadcrumbs</strong> - Activate/Deactivate Page title-breadcrumbs;</li>
+			</ul>
+
+			<h4>General Page Options</h4>
+			<ul>
+				<li><strong>1. Page top/bottom spacing</strong> - Choose between next options: 
+					<ol>
+						<li><strong>High Padding</strong> - Adds a 80 pixels on top-bottom sides of the main page div;</li>
+						<li><strong>No Padding</strong> - Removes all padding from main page div;</li>
+						<li><strong>No Padding top</strong> - Adds a 80 pixels on top sides of the main page div;</li>
+						<li><strong>No Padding bottom</strong> - Adds a 80 pixels on bottom sides of the main page div;</li>
+					</ol>
+				</li>
+				<li><strong>2. Page Preloader Status</strong> - Enable or Disable the preloader on current page/post;</li>
+				<li><strong>3. Page Preloader Background Color</strong> - Set a custom background color to page preloader;</li>
+			</ul>
+
+			<h4>Custom Footer Options</h4>
+			<ul>
+				<li><strong>1. Rewrite Theme Options</strong> - Rewrite Theme Options with current page/post options;</li>
+				<li><strong>1.a. If YES</strong> - These options will appear: 
+					<ol>
+						<li><strong>Footer Row #1 - Status</strong> - Enables the first row of widgets;</li>
+						<li><strong>Footer Row #2 - Status</strong> - Enables the second row of widgets;</li>
+						<li><strong>Footer Row #3 - Status</strong> - Enables the third row of widgets;</li>
+					</ol></li>
+				<li><strong>2. Footer Custom background color</strong> - Set a custom background color to footer;</li>
+			</ul>
+		</section>
+
+
+
+
+
+
+		<section id="installation11">
+			<div class="page-header2"><h3>MT Widgets</h3></div>
+			<p>Meraki Theme comes with a lot of custom widgets which can be found in your WordPress Admin Area under <code>Appearance &gt; Widgets</code>.</p>
+			<ol>
+				<li>MT - Post thumbnails slider</li>
+				<li>MT - Recent Posts with thumbnails</li>
+				<li>MT - Recent Tweets</li>
+				<li>MT - Contact + Social Links</li>
+				<li>MT - Recent Listings with thumbnails</li>
+				<li>MT - Social Share Icons</li>
+			</ol>
+			<img src="assets/images/widgets.png" alt="">
+		</section>
+
+
+
+		<section id="installation12">
+			<div class="page-header2"><h3>MT Shortcodes</h3></div>
+			<p>Meraki comes with <code>WPBakery Page Builder Plugin included</code>, so any customer of the theme can use this amazing drag and drop page builder.</p>
+			<img src="assets/images/admin-vc-1.png" alt="">
+			<p>Besides default WPBakery Page Builder shortcodes, Meraki comes with <code>+30 custom shortcodes</code>.</p>
+			<p>Meraki comes a <code>huge list of shortcodes</code> integrated directly into <code>WPBakery Page Builder Plugin</code></p>
+			<ul>
+				<li>MT - Alert</li>
+				<li>MT - Animated Gradient</li>
+				<li>MT - Blog Post Grid</li>
+				<li>MT - Blog Post List</li>
+				<li>MT - Bubble Box</li>
+				<li>MT - Button</li>
+				<li>MT - Clients (No Slider)</li>
+				<li>MT - Clients (Slider)</li>
+				<li>MT - Contact</li>
+				<li>MT - CountDown Version 2</li>
+				<li>MT - CountDown</li>
+				<li>MT - Custom Service</li>
+				<li>MT - Featured Post</li>
+				<li>MT - Featured Product</li>
+				<li>MT - Heading with Title and Subtitle</li>
+				<li>MT - Horizontal Timeline</li>
+				<li>MT - Icon List Item</li>
+				<li>MT - Icon ListGroup Item</li>
+				<li>MT - Job Listing Grid</li>
+				<li>MT - Job Listings Category Image</li>
+				<li>MT - Job Type Icon</li>
+				<li>MT - Jobs Search</li>
+				<li>MT - Jumbotron</li>
+				<li>MT - List Group</li>
+				<li>MT - Mailchimp subscribe form</li>
+				<li>MT - Members Slider</li>
+				<li>MT - Panel2</li>
+				<li>MT - Panel</li>
+				<li>MT - Pricing Table</li>
+				<li>MT - Products by Category</li>
+				<li>MT - Progress bar</li>
+				<li>MT - Skill Counter</li>
+				<li>MT - Social Icon Box</li>
+				<li>MT - Social Icons</li>
+				<li>MT - Tabs</li>
+				<li>MT - Testimonials Box</li>
+				<li>MT - Testimonials Slider</li>
+				<li>MT - Thumbnails custom content</li>
+				<li>MT - Timeline Version 2</li>
+				<li>MT - Timeline</li>
+				<li>MT - Typed Text</li>
+				<li>MT - Video</li>
+			</ul>
+			<img src="assets/images/mt_shortcodes.png" alt="">
+		</section>
+
+
+
+		<section id="support">
+			<div class="page-header2">
+				<h3>Theme Support</h3>
+			</div>
+			<p>You get free 6 month support with this item. If you need some help or found a bug or issue with the theme, you can always contact us here via email and we will respond to you within 1 day.</p>
+			<p>If you want to send us a message with an issue or a questions, you can reach us at <a href="https://modeltheme.com/support/" target="_blank">Ticksy</a> to submit a ticket.</p>
+		</section>
+
+
+
+		<section id="changelog">
+			<div class="page-header2"><h3>Change LOG</h3></div>
+			<p><a href="https://modeltheme.com/changelog-category/meraki/" rel="nofollow"><img src="http://modeltheme.com/TFIMGS/general/logs.jpg" /></a></p>
+		</section>
+	</div>
+
+
+
+<link rel='stylesheet' id='modelthemes-frontend-bar-css'  href='http://docs.modeltheme.com/assets/css/modelthemes-frontend-bar.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://docs.modeltheme.com/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<!-- MODELTHEME HELPER -->
+<a id="mt_trigger-overlay" target="_blank" data-toggle="tooltip" data-placement="top" title="" class="mt_purchase_link only_purchase" href="https://modeltheme.com/go/purchase-meraki-theme/" data-original-title="Purchase Meraki">
+<svg id="svg_envato_logo" class="mt-env-logo-svg" viewBox="0 0 244 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M207.985 2.15544C199.822 -2.39928 176.423 0.416962 148.32 9.16241C99.1354 42.9604 57.6248 92.7535 54.728 172.713C54.2006 174.624 49.3494 172.453 48.3899 171.861C35.1082 146.269 29.8462 119.321 40.9361 80.4464C43.0032 76.9868 36.2451 72.7277 35.0301 73.9442C32.5958 76.3954 22.4481 87.2627 15.7084 99.015C-17.6994 157.275 4.14783 231.925 62.5967 264.594C121.033 297.314 194.826 276.208 227.363 217.444C265.006 149.62 230.053 14.5461 207.986 2.15748L207.985 2.15544Z" fill="#82B541"></path>
+</svg>
+<span>Purchase Theme</span>
+</a>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52405694-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-52405694-2');
+</script>
+<script type="text/javascript">
+	jQuery("#documenter_nav li a, #documenter_logo").on('click', function(event) {
+		if (this.hash !== "") {
+		  event.preventDefault();
+		  var hash = this.hash;
+		  jQuery('html, body').animate({
+		    scrollTop: jQuery(hash).offset().top
+		  }, 800, function(){
+		    window.location.hash = hash;
+		  });
+		} 
+	});
+</script>
+</body>
+</html>
